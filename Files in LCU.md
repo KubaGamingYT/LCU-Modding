@@ -4,16 +4,21 @@
 * `.FMV` – Video files. Cannot be extracted
 * `.LED` – They control lighting, camera, water and more things.
 * `.CD` – Contains data for characters, faces, and vehicles (models, textures, etc.)
-* `CPD, DNO, AS` – Unknown. Similar to `.CD` but don’t contain textures or full data
-* `.TXT` – Text file. Open with Notepad or Notepad++
-* `.PAK` – .PAK files are like .ZIP files, they contain some data and images and can be extracted using quickbms.
-* `.AN4` – Animation files.
-* `PC_SHADERS` – Shader files.
-* `.CSV` – Text file. They contain all of the names and translated versions of vehicle, minifigures and subtitles.
-* `.WAV` – Standard audio file.
-* `.DAT` – Should be extracted. Use my extraction tutorial: https://www.youtube.com/watch?v=hYOdEW9B5hg&t=
-* `.XML, .JOBLEVELTREE, .JOBDATAMAP, .WARPROJECT, .WARBE, .ATS, .PVS, .NVM, .GLM, .AIB, .GIP, .TSH, .BIN, .RES, .PAR` – These are unknown files.
-* `.SF` – Script file
+* `CPD` – Skeleton of a vehicle. Can be edited with FLUX.
+* `AS` - Animation file. Can be edited with FLUX.
+* `DNO` - Collision file. Can't be edited
+* `.TXT` – Text file. Open with Notepad or Notepad++.
+* `.PAK` – Work just like .ZIP files. They can be extracted using QUICKBMS.
+* `.AN4` – Animation files. Can be edited by HxD.
+* `PC_SHADERS` – Shader files. Can't be edited.
+* `.CSV` – Text file, that has all translations of all text in LEGO City Undercover. Can be edited with notepad or notepad++.
+* `.WAV` – Standard audio file. Can be edited using Audacity.
+* `.DAT` – Files that work kind of like .ZIP files. Can be extracted with QUICKBMS.
+* `, .JOBDATAMAP, .WARPROJECT, .WARBE, .ATS, .PVS, .NVM, .GLM, .AIB, .GIP, .TSH, .BIN, .RES, .PAR` – These are unknown files.
+* `JOBLEVELTREE` - This file has information with bools. Can be edited using HxD.
+
+* `XML` - Files with informations inside them. Can be edited with notepad or notepad++
+* `SF` – Script file. Can be edited with notepad, notepad++ or vscode.
 * `.GIZ` - Gizmo files, they contain objects.
 * `.RAW` - Texture file.	
 * `.DLL` – Steam-related script file
